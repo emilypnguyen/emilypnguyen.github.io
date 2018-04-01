@@ -1,0 +1,11 @@
+@mixin body-font() {
+  font-family: 'Poppins';
+  font-weight: 400;
+  color: $gray-800;
+}
+
+@mixin heading-font() {
+  font-weight: 700;
+  font-family: 'Playfair Display';
+  color: $gray-800;
+}
