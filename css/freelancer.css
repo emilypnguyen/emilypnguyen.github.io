@@ -10,8 +10,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
-  font-family: 'Playfair Display';
+  font-weight: 500;
+  font-family: 'Courier New';
   color: #343a40;
 }
 
@@ -20,6 +20,12 @@ h6 {
   font-weight: 100;
   color: #343a40;
   letter-spacing: 0.1em;
+}
+
+#ice-breaker {
+  font-size: 75px;
+  line-height: 75px;
+  margin-top: 25vh;
 }
 
 hr.star-light,
@@ -50,7 +56,7 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #18BC9C;
+  background-color: #495057;
 }
 
 hr.star-dark {
@@ -114,8 +120,8 @@ section h2 {
 }
 
 #mainNav .navbar-brand {
-  font-family: 'Playfair Display';
-  font-weight: 700;
+  font-family: 'Poppins';
+  font-weight: 800;
   color: #343a40;
 }
 
@@ -230,7 +236,7 @@ header.masthead #self-pic-main {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background-color: rgba(24, 188, 156, 0.9);
+  background-color: rgba(73, 80, 87, 0.9);
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -333,7 +339,7 @@ header.masthead #self-pic-main {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #18BC9C;
+  color: #495057;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -352,7 +358,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 a {
-  color: #18BC9C;
+  color: #495057;
 }
 
 a:focus, a:hover, a:active {
@@ -380,13 +386,13 @@ a:focus, a:hover, a:active {
 }
 
 .btn-primary {
-  background-color: #18BC9C;
-  border-color: #18BC9C;
+  background-color: #495057;
+  border-color: #495057;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #128f76;
-  border-color: #128f76;
+  background-color: #32373b;
+  border-color: #32373b;
 }
 
 .btn-secondary {
